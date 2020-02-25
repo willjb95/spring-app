@@ -21,7 +21,7 @@
     /**
      * This is an event listener, it defines what should happen when an event occurs. which is specified here.
      * So when I click it runs this code to cause an event
-     *  ----- NOT WORKING -----
+     *  
      */
     
     document.addEventListener("DOMContentLoaded", function (){
