@@ -1,1 +1,30 @@
+/*   It's only functionality is to style a webpage   */
+body {
+background-color: brown;
+color: #fefefe;
+}
 
+/* This is a selecter */
+#title {
+    color: chartreuse;
+}
+
+/* This will overite the previous code because it works itself down */
+#title {
+    color:turquoise
+}
+
+/* li is an element so no # */
+/* This is used to style the block li e.g spacing */
+li {
+    list-style-type: none;
+    padding: .4em;
+    background-color: brown;
+    color: white;
+    width: fir-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}

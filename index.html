@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html>
 
+  
+  <head> <!-- <head> :: This is an element -->
+    <!-- TODO :: Research what a meta tag does and is -->
+   <meta charset="utf-8">
+   <meta name="viewpoint" content="width=device-width, inital-scale=1">
+   <!-- TITLE :: Defines the title of the page -->
+   <title>spring app</title>
+   <!-- LINK :: this is used to link stylesheet. HREF :: Lnk css file in directory. Pulls these to main html file. Doesn't have a clsoing "/"-->
+   <link rel="stylesheet" href="index.css">
+   
+   
+   </head>
+
+   <!-- BODY :: What diplays on the page -->
+  <body>
+      <!-- ID :: Can only be deifned once. PARAGRAPHS :: Can be defined many times -->
+      <!-- Class names are sperated by spaces -->
+      <!-- You can have as many class names as you want -->
+      <!-- It is best practise for class names and ids to have "-" between them e.g "kebab-case"  -->
+      <header>
+      <h1 id="title">Spring App</h1>
+      <p class="paragraphs">Welcome to my spring App</p>
+      <p class="paragraphs">This is a paragraph class</p>
+      </header>
+      
+      <!-- DIV :: Defines a block--> 
+      <div>
+          <!-- UL :: Unordered list. OL :: Ordered List -->
+        <ul id="car-list">
+            Cars to choose from:
+            <!-- Classes are useful if you want to style many things of importance -->
+            <li class="car-list-item">Ford</li>
+            <li class="car-list-item">Honda</li>
+            <li class="car-list-item">Hyundai</li>
+            <li class="car-list-item">Toyota</li>
+        </ul>
+      </div>   
+
+      <div>
+          <ul id="cars-selected">
+              <!-- This is the list we are going to populate -->
+              View your selected cars:
+
+          </ul>
+      </div>
+    
+      <!-- This is how you include javescript files -->
+      <script src="index.js"></script>
+    </body>
+    
+    </html>
